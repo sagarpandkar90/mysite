@@ -27,7 +27,7 @@ SECRET_KEY ='django-insecure--kn9hp_w$o31s-+m%+_n5-zlu*z=p-8yzw*4ymau*95zmdi9ri'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = [os.getenv('RAILWAY_HOSTNAME', '127.0.0.1')]
+ALLOWED_HOSTS = ['your-app-name.onrender.com']
 
 
 
